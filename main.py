@@ -139,7 +139,7 @@ if __name__ == '__main__':
     import argparse
     import ast
     parser = argparse.ArgumentParser()
-    parser.add_argument('--reward_type', type=str, required=True, help='type of reward: entropy_max or multi_objectives')
+    parser.add_argument('--reward_type', type=str, required=True, help='type of reward: constrained or multi_objectives')
     parser.add_argument('--n_iterations', type=int, required=True, help='number of iterations')
     parser.add_argument('--samples', type=int, required=False, help='number of repetitions per experiment, default is 1')
     args = parser.parse_args()
