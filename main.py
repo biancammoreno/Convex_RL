@@ -30,7 +30,6 @@ def show_final_distribution(env, mu, reward_type, iter, bonus):
 
     # print last time step
     mu_to_print = color_walls_white(env, mu[40-1,:])
-    np.savetxt('mu_values.txt', mu_to_print)	
     plt.imshow(mu_to_print)
     plt.colorbar()
     plt.title('mu')
