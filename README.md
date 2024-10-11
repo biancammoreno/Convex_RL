@@ -11,6 +11,6 @@ Variables:
 - `n_iterations` indicates the number of iterations;
 - `samples` indicates the number of repetitions per experiment.
 
-The code runs the experiments for both Greedy MD-CURL and Bonus O-MD-CURL. It creates a folder 'results' with the state-action distribution plots, the log-loss and the regret plots.
+The code runs the experiments for Greedy MD-CURL and Bonus O-MD-CURL. It creates a `results` folder containing state-action distribution images, log-loss and regret plots.
 
-The folder optimal contain the values of the loss function for the optimal policy. These values are computed running an offline method for CURL (using the true probability transition) for 2000 iterations.
+The `optimal` folder contains the values of the loss function for an approximate optimal policy to be used when calculating regret. These values are calculated using an off-line method for CURL (using the true probability transition) over 2000 iterations.
