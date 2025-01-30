@@ -1,6 +1,6 @@
-## Online Episodic Convex Reinforcement Learning with Adversarial Losses
+## Online Episodic Convex Reinforcement Learning
 
-Code to reproduce the results of the paper "Online Episodic Convex Reinforcement Learning with Adversarial Losses".
+Code to reproduce the results of the paper "Online Episodic Convex Reinforcement Learning".
 
 To run an experiment save all files to a folder, install the requirements in requirements.txt and execute
 
